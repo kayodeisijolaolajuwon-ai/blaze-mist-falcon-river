@@ -1,0 +1,7 @@
+{
+  "model": "grok-imagine-image-2.0",
+  "prompt": "A quiet literary-magazine cover on warm paper, wide cinematic frame. Centered two-line lockup in a tall elegant old-style serif, ink black: the word HEARTH stacked directly above the word LEDGER, lettering spanning about half the width, with a smaller widely spaced line underneath that reads exactly A small paid magazine. A still photograph of a writer's morning desk sits behind the type: brass reading lamp, stack of cream journals, one vermilion ribbon. Palette is warm paper cream, deep ink, and a single vermilion accent. Generous empty margins, no letter touches an edge, centered print cover, no other words.",
+  "aspect_ratio": "16:9",
+  "resolution": "2k",
+  "response_format": "b64_json"
+}

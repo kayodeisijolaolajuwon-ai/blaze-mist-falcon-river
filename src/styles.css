@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f4efe6;
+  --color-surface: #fffdf8;
+  --color-ink: #1c1915;
+  --color-muted: #6f675e;
+  --color-line: #e3d9cb;
+  --color-accent: #b5452a;
+  --color-accent-ink: #fff8f4;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --radius-card: 0.4rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    background: var(--color-bg);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-serif);
+    background: var(--color-bg);
+    color: var(--color-ink);
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: #ead3c8;
+  }
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 3.4rem;
+  line-height: 0.8;
+  padding-right: 0.45rem;
+  padding-top: 0.35rem;
+  color: var(--color-accent);
+}
